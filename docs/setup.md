@@ -34,7 +34,7 @@ npm run dev
 and open http://localhost:4321/ in your browser to see your changes live. To stop the development server, press `Ctrl+C`.
 
 > [!TIP]
-> If you get stuck or need help, send a message in `#swat-website` of the SwAT discord or `@squisket` on discord. This project aims to be welcoming to everyone regardless of experience!
+> If you get stuck or need help, send a message in `#swat-website` or mention `@SwAT Mentor` in the SwAT discord. This project aims to be welcoming to everyone regardless of experience!
 
 # Useful commands
 
