@@ -7,16 +7,18 @@
 	},
 	"scripts": {
 		"dev": "astro dev",
-		"build": "astro build",
+		"check": "astro check",
+		"build": "astro check && astro build",
 		"preview": "astro preview",
-		"astro": "astro",
 		"lint": "eslint",
 		"lint:fix": "eslint --fix",
 		"format": "prettier . --write",
 		"format:check": "prettier . --check"
 	},
 	"dependencies": {
-		"astro": "^7.4.2"
+		"@astrojs/check": "^0.9.12",
+		"astro": "^7.4.2",
+		"typescript": "^6.0.3"
 	},
 	"devDependencies": {
 		"@antfu/eslint-config": "^10.0.0",
