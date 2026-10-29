@@ -5,9 +5,6 @@ on:
     paths:
       - ".github/**"
       - "web/**"
-    paths-ignore:
-      - "web/README.md"
-      - "web/AGENTS.md"
 
 # Allow this job to clone the repo
 permissions:
