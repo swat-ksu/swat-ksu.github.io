@@ -2,6 +2,9 @@ name: Check Pull Request
 
 on:
   pull_request:
+    paths:
+      - ".github/**"
+      - "web/**"
 
 # Allow this job to clone the repo
 permissions:
