@@ -1,0 +1,65 @@
+---
+import Image from "astro/components/Image.astro";
+import Logo from "../assests/images/logo.png"
+---
+
+<nav>
+
+        <a href="">
+            <Image src={Logo} alt="SwAT Logo" id="logo"/>
+        </a>
+        <ul>
+            <li>
+            </li>
+            <li>
+                <a href="meeting-notes">Meeting Notes</a>
+            </li>
+            <li>
+                <a href="projects">Projects</a>
+            </li>
+        </ul>
+    </nav>
+<style>
+    #logo {
+        max-height: 2.5rem;
+        width: auto;
+    }
+    nav {
+            display: flex;
+            flex-direction: row;
+            background-color: #FEC627;
+            padding: 0 1rem;
+        }
+
+    ul {
+        flex: 1;
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        align-items: center;
+    }
+    li {
+        margin-left: 1rem;
+        display: inline-block;
+        list-style: none;
+    }
+    a {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        font-size: 1.5rem;
+        padding: .125rem 1rem;
+        margin: .25rem;
+        border-radius: 100rem;
+    }
+    a, a:visited {
+        color: rgb(70, 70, 70);
+        text-decoration: none;
+    }
+    a:hover {
+        translate: 0 -1px;
+        background-color: yellow;
+        color: black
+    }
+</style>
