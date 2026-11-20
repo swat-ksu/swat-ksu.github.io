@@ -8,6 +8,7 @@ body {
 }
 main {
     flex 1;
+    margin: 1rem auto;
 }
 footer {
     margin-top: auto;
