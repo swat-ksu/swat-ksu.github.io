@@ -7,7 +7,7 @@ body {
     min-height: 100dvh;
 }
 main {
-    flex 1;
+    flex: 1;
     margin: 1rem auto;
 }
 footer {
