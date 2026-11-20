@@ -1,35 +1,56 @@
 ---
 import Image from "astro/components/Image.astro";
-import Discord from "../assests/images/Discord-Logo-White.png"
-import Github from "../assests/images/GitHub_Lockup_White.png"
+import Discord from "../assests/images/Discord-Logo-White.png";
+import Github from "../assests/images/GitHub_Lockup_White.png";
 
 const year = new Date().getFullYear() || 2026;
 ---
 
 <footer>
-    <a href="https://github.com/swat-ksu" target="_blank" rel="noopener noreferrer">
-        <Image id="github" src={Github} alt="Github Logo" decoding="async" loading="lazy"/>
-    </a>
-    <p>
-        Copyright {year} &copy; - All rights reserved SwAT @ KSU
-    </p>
-    <a href="https://discord.gg/fcwTBYQvr7" target="_blank" rel="noopener noreferrer">
-        <Image id="discord" src={Discord} alt="Discord Logo" decoding="async" loading="lazy"/>
-    </a>
+	<a
+		href="https://github.com/swat-ksu"
+		target="_blank"
+		rel="noopener noreferrer"
+	>
+		<Image
+			id="github"
+			src={Github}
+			alt="Github Logo"
+			decoding="async"
+			loading="lazy"
+		/>
+	</a>
+	<p>
+		Copyright {year} &copy; - All rights reserved SwAT @ KSU
+	</p>
+	<a
+		href="https://discord.gg/fcwTBYQvr7"
+		target="_blank"
+		rel="noopener noreferrer"
+	>
+		<Image
+			id="discord"
+			src={Discord}
+			alt="Discord Logo"
+			decoding="async"
+			loading="lazy"
+		/>
+	</a>
 </footer>
 <style>
-    footer {
-        background-color: #121315;
-        color: white;
-        min-height: 5dvh;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-    }
-    #github, #discord {
-        max-height: 3rem;
-        width: auto;
-        margin: 1rem;
-    }
+	footer {
+		background-color: #121315;
+		color: white;
+		min-height: 5dvh;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+	}
+	#github,
+	#discord {
+		max-height: 3rem;
+		width: auto;
+		margin: 1rem;
+	}
 </style>

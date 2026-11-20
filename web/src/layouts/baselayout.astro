@@ -1,9 +1,8 @@
 ---
-import Footer from "../components/footer.astro"
+import Footer from "../components/footer.astro";
 import Nav from "../components/nav.astro";
 import "../styles/global.css";
 ---
-
 
 <html lang="en">
 	<head>
@@ -14,17 +13,17 @@ import "../styles/global.css";
 		<title>SwAT</title>
 	</head>
 	<body>
-        <header>
-            <Nav/>
-        </header>
+		<header>
+			<Nav />
+		</header>
 		<main>
-            <slot/>
-        </main>
-        <Footer/>
+			<slot />
+		</main>
+		<Footer />
 	</body>
 </html>
 <style>
-    main {
-        max-width: 50%;
-    }
+	main {
+		max-width: 50%;
+	}
 </style>
