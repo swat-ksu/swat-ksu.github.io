@@ -1,0 +1,61 @@
+body {
+    background-color: black;
+
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+  }
+
+  .right-links {
+    display: flex;
+    gap: 25px;
+  }
+
+  a,
+  a:visited {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+  }
+  a:hover{
+  color:grey ;
+
+  }
+
+  h1 {
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    font-family: "IBM Plex Sans", "Times New Roman", "Cooper";
+    font-size: 60px;
+  }
+  .getYlw{
+  background-color:#FFC629 ;
+  border-radius: 4px;
+  padding: 5px;
+  }
+  .ySwAT,
+  .ySwAT:visited {
+    color: #FFC629;
+  }
+  img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+  }
+  h2{
+  font-weight: bold;
+    color:white;
+    text-align: center;
+    font-size: 60px;
+
+  }
+  p{
+  color:white;
+  font-size: 30px;
+  text-align: center;
+  }
